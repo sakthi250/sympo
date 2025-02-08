@@ -9,17 +9,17 @@ const ContactUs = () => {
 
       <div className="d-flex flex-column align-items-center gap-3 contact-list">
         <div className="contact-card">
-          <p className="contact-name">Naveen</p>
+          <h3 className="my-4 neon-text default-cursor">Naveen</h3>
           <p className="contact-info">Phone: 9876543210</p>
         </div>
 
         <div className="contact-card">
-          <p className="contact-name">Riyaz</p>
+          <h3 className="my-4 neon-text default-cursor">Riyaz</h3>
           <p className="contact-info">Phone: 6739996847</p>
         </div>
 
         <div className="contact-card">
-          <p className="contact-name">Sakthin</p>
+          <h3 className="my-4 neon-text default-cursor">Sakthin</h3>
           <p className="contact-info">Phone: 9876543210</p>
         </div>
       </div>

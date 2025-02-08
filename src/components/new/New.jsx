@@ -4,25 +4,23 @@ import Pop from "./Pop";
 const New = () => {
   return (
     <>
-      <div className="con">
-        <div className="home-con">
-          <div className="img">
-            <img src="fin.png" className="img" />
-            <p className="glowing-text">Department of Computer Science</p>
-          </div>
+      <div className="new-con">
+        <div className="new-home-con text-center ">
+          <img src="fin.png" className="new-img" />
+          <h1 className="neon-text m-2">Department of Computer Science</h1>
           <div>
-            <p className="glowing-text ">
-              Where Innovation Meets sliver Screen
-            </p>
-            <p className="glowing-text">26 February 2025</p>
+            <h3 className="new-glowing-text m-2">
+              Where Innovation Meets sliver Screen <br />
+            </h3>
+            <h4 className="neon-text m-1"> 26 February 2025</h4>
           </div>
-          <div className="img-con">
+          <div className="new-img-con">
             <Cam />
 
-            <p className="glowing-text ">
+            <h3 className="neon-text m-2">
               Join us for a spectacular journey into technology,creativity,and
               innovation,all wrapped in the charm of Retro Cinema.
-            </p>
+            </h3>
             <Pop />
           </div>
         </div>

@@ -41,13 +41,13 @@ const About = () => {
   };
   return (
     <div className="container-fluid our-team-container py-5 bg-dark text-white min-vh-100 con">
-      <h1 className="our-team-title text-center mb-4 display-4 neon-text default-cursor mt-4">
+      <h2 className="text-center mb-4 display-4 neon-text default-cursor mt-4">
         Meet Our Team
-      </h1>
+      </h2>
       <div className="container">
         {Object.entries(teamData).map(([teamName, members]) => (
           <div className="team-section text-center" key={teamName}>
-            <h2 className="team-section-title">{teamName}</h2>
+            <h3 className="my-4 neon-text default-cursor">{teamName}</h3>
             <div className="row justify-content-center">
               {members.map((member) => (
                 <div

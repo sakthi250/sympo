@@ -2,29 +2,12 @@
 
 /* Overall container with a Blade Runner 2049–inspired dark background */
 .our-team-container {
-    padding: 40px;
-    text-align: center;
-    background-color: #0d0d0d;
-    background-image: radial-gradient(circle, rgba(255, 0, 0, 0.2) 10%, rgba(0, 0, 0, 0.8) 80%);
-    background-size: cover;
-    background-position: center;
-    font-family: 'Cinzel', serif;
-    color: #fff;
-    position: relative;
-    overflow: hidden;
-    perspective: 1000px;
     height: auto;
   }
   
   /* Main title styling with neon gold and glowing effect */
-  .our-team-title {
-    margin-top: 40px;
-    font-size: 48px;
-    color: #ffcc00;
-    text-shadow: 4px 4px 20px #ff6600;
-    letter-spacing: 3px;
-    margin-bottom: 20px;
-    animation: fadeIn 2s ease-in-out;
+  .neon-text {
+    text-shadow: 2px 2px 10px #ff6600;
   }
   
   /* Team section titles */
