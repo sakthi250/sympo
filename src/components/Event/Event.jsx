@@ -80,7 +80,6 @@ const Events = () => {
         Events
       </h2>
 
-     
       <div className="d-flex justify-content-center mb-4">
         <div className="btn-group" role="group" aria-label="Filter Buttons">
           <button
@@ -113,7 +112,6 @@ const Events = () => {
         </div>
       </div>
 
-      
       {Object.entries(eventsData).map(([category, events]) =>
         filter === "All" || filter === category ? (
           <div key={category}>

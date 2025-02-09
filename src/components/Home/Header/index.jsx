@@ -11,13 +11,18 @@ const Header = () => {
   };
 
   return (
-    <nav className="nav-header">
+    <nav className="nav-header sticky-top">
       <div className="nav-content">
-        <img className="website-logo" src="fin.png" alt="website logo" onClick={() => navigate("/")} />
+        <img
+          className="website-logo"
+          src="fin.png"
+          alt="website logo"
+          onClick={() => navigate("/")}
+        />
 
         {/* Hamburger Menu */}
-        <div className="menu-toggle" onClick={toggleMenu}>
-          ☰
+        <div className="menu-toggle me-4" onClick={toggleMenu}>
+          {isOpen ? "X" : "☰"}
         </div>
 
         {/* Navigation Links */}
